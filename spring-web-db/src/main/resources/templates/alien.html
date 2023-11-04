@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Handling Form Submission</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Add Alien</h1>
+    <form action="addAlien">
+    	<p>Id: <input type="text" name="id" /></p>
+        <p>Name: <input type="text" name="name" /></p>
+        <p>Tech: <input type="text" name="tech" /></p>
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+    </form>
+
+    <form action="getAlien">
+        <p>Id: <input type="text" name="id" /></p>
+        <p><input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
